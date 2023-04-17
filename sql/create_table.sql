@@ -29,7 +29,7 @@ CREATE TABLE  Orders
 	Ord_amount DECIMAL(12,2) NOT NULL, 
 	Advance_amount DECIMAL(12,2) NOT NULL, 
 	Ord_date DATE NOT NULL, 
-	Cust_code VARCHAR(6) NOT NULL REFERENCES CUSTOMER, 
-	Agent_code CHAR(6) NOT NULL REFERENCES AGENTS, 
+	Cust_code VARCHAR(6) NOT NULL REFERENCES Customer, 
+	Agent_code CHAR(6) NOT NULL REFERENCES Agents, 
 	Ord_description VARCHAR(60) NOT NULL
    );
