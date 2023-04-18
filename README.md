@@ -1,4 +1,4 @@
-# AWS MIGRATE DATABASE FROM MYSQL TO POSTRGES
+# AWS MIGRATE DATABASE FROM MICROSOFT SQL SERVER TO MARIADB SERVER
 > This project show database migration.
 > Live demo [_here_](http://mateuszgua.pythonanywhere.com/).
 
@@ -22,16 +22,25 @@
 List the ready features here:
 - Creating diagram with functions,
 - Creating databases in RDS services,
-- Creating secrets with databases informations
+- Creating secrets with databases informations,
+- Creating connection with database instance and azure data studio,
+- Creating database and tables in azuro studio,
+- Updating database with data,
+- Creating project in schema conversion tool,
+- Adding source as database instance microsoft sql server,
+- Adding target as database instance mariadb server,
+- Creating mapping with databases,
+- Converting schema and updating changes on mariadb instance.
+
 
 ## Screenshots
 Schematic diagram
-![Example screenshot](./static/func-diagram-migrate-mysql.png)
+![Example screenshot](./static/func-diagram-data-migration.png)
 Page with project workflow
-![Example screenshot](#)
+![Example screenshot](./static/migrationSCT.png)
 
 ## Project Status
-Project is: in_progress
+Project is: completed
 
 
 ## Contact
