@@ -20,7 +20,9 @@
 
 ## Features
 List the ready features here:
-- 
+- Creating diagram with functions,
+- Creating databases in RDS services,
+- Creating secrets with databases informations
 
 ## Screenshots
 Schematic diagram

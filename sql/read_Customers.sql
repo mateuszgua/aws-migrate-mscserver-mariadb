@@ -1,1 +1,1 @@
-SELECT * FROM Company_AWS_NY.Customer;
+SELECT * FROM Customer;
